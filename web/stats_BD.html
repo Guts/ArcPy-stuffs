@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Estadisticas de la base de datos</title>
+        <link rel="stylesheet" href="demo.css"media="screen">
+        <link rel="stylesheet" href="demo-print.css"media="print">
+        <script src="raphael-min.js"></script>
+        <script src="jquery.js"></script>
+        <script src="pie.js"></script>
+        <style media="screen">
+            #holder {
+                margin: -350px 0 0 -350px;
+                width: 700px;
+                height: 700px;
+            }
+        </style>
+    </head>
+    <body>
+		<div>
+La base de datos contiene 85archivos shapefiles:
+		</div>
+        <table>
+            <tbody>
+                <tr>
+                    <th scope="row">Puntos (61)</th>
+                    <td>61</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lineas (10)</th>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <th scope="row">Poligonos (14)</th>
+                    <td>14</td>
+                </tr>
+            </tbody>
+        </table>
+        <div id="holder"></div>
+    </body>
+</html>
