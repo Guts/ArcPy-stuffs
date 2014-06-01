@@ -1,4 +1,5 @@
-﻿#-------------------------------------------------------------------------------
+﻿#!/usr/bin/env python
+#-------------------------------------------------------------------------------
 # Name:        Pauline - script analyse par points
 # Purpose:     Statistiques par points à l'intérieur d'un masque.
 #
@@ -6,7 +7,7 @@
 #
 # Created:     17/11/2011
 #-------------------------------------------------------------------------------
-#!/usr/bin/env python
+
 
 from arcpy import env
 from arcpy import CheckOutExtension as check_licence

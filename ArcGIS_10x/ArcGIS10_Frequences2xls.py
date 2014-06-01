@@ -5,7 +5,6 @@
 #               et inscrit les fréquences dans un fichier excel
 # Author:      Julien M.
 # Created:     22/11/2011
-# Copyright:   (c) IRD 2011
 # Licence:     GPL
 #-------------------------------------------------------------------------------
 #!/usr/bin/env python
